@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+		<title>TheGet UP - For Those Who Know</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main4.css" />
+                <link rel="icon" href="images/Logo2.jpg">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+	<body onload="myFunction()" class="is-preload">
+       
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+                
+	<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+
+			
+                        
+						<div class="content">
+                           							<ul class="actions stacked">
+<li>
+                          <img src="images/Logo2.jpg" alt=""  width="400" height="150"/>
+</li>
+							
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Music Player</a></li>
+                                 <li><a href="#second" class="button big wide smooth-scroll-middle">Downloads</a></li>                       
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/front.jpg" alt="" />
+						</div>
+                        
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							
+						</div>
+
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="second">
+						<div class="content">
+							<h2>Downloads</h2>
+							<p>Click on the track to download</p>
+						</div>
+						<div class="image">
+							<img src="images/djs.jpg" alt=""/>
+						</div>
+					</section>
+
+				
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="audio-player-cont">
+			<div class="logo">
+				<img src="images/audio-player.png" />
+			</div>
+			<div class="player">
+				<div id="songTitle" class="song-title">Song title goes here</div>
+				<input id="songSlider" class="song-slider" type="range" min="0" step="1" onchange="seekSong()" />
+				<div>
+					<div id="currentTime" class="current-time">00:00</div>
+					<div id="duration" class="duration">00:00</div>
+				</div>
+				<div class="controllers">
+					<img src="images/previous.png" width="30px" onclick="previous();" />
+					<img src="images/backward.png" width="30px" onclick="decreasePlaybackRate();" />
+					<img src="images/pause.png" width="40px" onclick="playOrPauseSong(this);" />
+					<img src="images/forward.png" width="30px" onclick="increasePlaybackRate();" />
+					<img src="images/next.png" width="30px" onclick="next();" />
+					<img src="images/volume-down.png" width="15px" />
+					<input id="volumeSlider" class="volume-slider" type="range" min="0" max="1" step="0.01" 
+onchange="adjustVolume()" />
+					<img src="images/volume-up.png" width="15px" style="margin-left:2px;" />
+				</div>
+				<div id="nextSongTitle" class="song-title"><b>Next Song :</b>Next song title goes here...</div>
+			</div>
+		</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+        		<script type="text/javascript" src="player.js"></script>
+
+                
+
+	</body>
+</html>

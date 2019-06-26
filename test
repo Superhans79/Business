@@ -1,0 +1,14 @@
+                                                <?php
+        if ($_SESSION['error'] = 'password') {
+          echo "Password is Shiiit" ;
+        }
+        else if ($_SESSION['error'] = 'Wrong') {
+          echo "Somthing Is wrong" 
+        }
+         else {
+          echo "Hello World" 
+        }
+        ?>
+        
+        
+    $sql = "SELECT * FROM users WHERE `uidUsers ` = ? OR `emailUsers ` =?;";
